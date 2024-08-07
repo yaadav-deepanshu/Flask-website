@@ -26,7 +26,9 @@ def home():
 
 
 @app.route("/track")
-
 def track():
         return render_template("track.html")
 
+@app.route("/about")
+def about():
+	return render_template("about.html")
