@@ -4,11 +4,12 @@ app=Flask(__name__)
 
 @app.route("/")
 @app.route("/home")
-@app.route("/track")
 def home():
 	return render_template("home.html")
 
 
+
+@app.route("/track")
 
 def track():
 	return render_template("track.html")
