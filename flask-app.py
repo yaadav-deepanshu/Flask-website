@@ -5,13 +5,13 @@ app=Flask(__name__)
 posts=[
 {
 'author':'Deepanshu Yadav',
-'title':'blog post',
+'title':'BLOG POST',
 'content':'First Blog Post',
 'date_posted':'April 18 2024'
 },
 {
 'author':'Sam manic',
-'title':'blog post',
+'title':'BLOG POST',
 'content':'First Blog Post',
 'date_posted':'August 18 2024'
 }
