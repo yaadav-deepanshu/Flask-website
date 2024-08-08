@@ -1,18 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-{% if title %}
-<title>Electronsiot - {{title}}</title>
-{% else %}
-<title>Electronsiot</title>
-{% endif%}
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-<body>
-    <h1>Blog Posts</h1>
-    <ul>
-        {% for post in posts %}
+{%extends "layout.html"%}
+{% block content %}
+      {% for post in posts %}
         <li>
             <h2>{{ post.title }}</h2>
             <p>Author: {{ post.author }}</p>
@@ -20,8 +8,5 @@
             <p>{{ post.content }}</p>
         </li>
         {% endfor %}
-    </ul>
-    <p><a href="/track">Track Your Package</a></p>
-    <p><a href="/about">About</a></p>
-</body>
-</html>
+    
+{% endblock content %}

@@ -27,8 +27,8 @@ def home():
 
 @app.route("/track")
 def track():
-        return render_template("track.html")
+        return render_template("track.html",title='Track')
 
 @app.route("/about")
 def about():
-	return render_template("about.html")
+	return render_template("about.html",title='About')

@@ -1,16 +1,5 @@
- <!DOCTYPE html>
-<html>
-<head>
-{% if title %}
-<title>Electronsiot - {{title}}</title>
-{% else %}
-<title>Electronsiot</title>
-{% endif%}
-</head>
-<body>
+{%extends "layout.html"%}
+{% block content %}
+	<h1>About</h1>
+{% endblock content %}
 
-<h1>About</h1>
-<p>This is the about page </p>
-<p><a href="/home" >Home</a></p>
-</body>
-</html> 
