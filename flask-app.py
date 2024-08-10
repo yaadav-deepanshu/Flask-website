@@ -14,7 +14,7 @@ posts=[
 'author':'Sam manic',
 'title':'BLOG POST',
 'content':'First Blog Post',
-'date_posted':'August 18 2024'
+'date_postedd':'August 18 2024'
 }
 ]
 
